@@ -1,0 +1,21 @@
+import React from 'react'
+import Helmet from '../components/helmet/Helmet'
+import { Container, Row } from 'reactstrap'
+import CommonSection from "../components/UI/CommonSection"
+import BlogList from "../components/UI/BlogList"
+const Blog = () => {
+  return (
+    <Helmet title="Blogs">
+      <CommonSection title="Blogs" />
+      <section>
+        <Container>
+          <Row>
+            <BlogList />
+          </Row>
+        </Container>
+      </section>
+    </Helmet>
+  )
+}
+
+export default Blog
