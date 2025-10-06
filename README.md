@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Rent Plus
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Rent Plus** is a modern web application for car rental services, offering affordable prices, easy booking, and flexible rental options. Customers can choose from a variety of cars, reserve online, and benefit from monthly subscriptions and exclusive offers.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Affordable Car Rental**: Grab your car at affordable prices with additional benefits for monthly subscriptions.
+- **Fast & Easy Booking**: Convenient three-step rental process for quick reservations.
+- **Flexible Pickup & Drop**: Rent a car from one location and drop it off at another, including airport transfers and doorstep delivery.
+- **Unlimited Mileage**: No kilometer capping; drive as much as you want!
+- **Sanitized Vehicles**: All cars are fully sanitized before being handed over.
+- **Comprehensive Insurance**: Coverage against damages, theft, and third-party property/life.
+- **Support & Safety**: Office hours 10am–7pm, customer support available.
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*(Add screenshots of your application here)*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Quick Links
 
-### `npm test`
+- About
+- Privacy Policy
+- Car List
+- Blog
+- Contact
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js >= 14.x
+- npm / yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/balamanikandan9232/rentplus.git
+   cd rentplus
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-### `npm run eject`
+3. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   The app should now be running at `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Browse available cars.
+- Use the booking form to reserve your car.
+- Choose pickup and drop locations.
+- Register or log in for personalized features.
+- Subscribe to the newsletter for updates.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Main Components
 
-## Learn More
+- **Home Page**: Hero slider, find car form, featured cars, services, blog.
+- **About Page**: Company mission, safety policy, contact info.
+- **Car List**: Browse cars by brand/model, with details and ratings.
+- **Booking Form**: Enter your details to book a car.
+- **Blog**: Tips and guides for car rentals and road trips.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Example Service Offerings
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **City Transfer**: For all travelers with a valid license.
+- **Whole City Tour**: Build and manage your perfect adventure.
+- **Many Pickup Locations**: Flexible pickup and drop-off options.
+- **Airport Transfer**: Doorstep, office, or airport delivery.
